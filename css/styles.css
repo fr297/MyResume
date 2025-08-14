@@ -26,6 +26,7 @@ ol {
 .content {
   padding: 88px 88px 40px 80px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 /* sidebar */
@@ -142,6 +143,7 @@ ol {
 }
 .my-info {
   margin-bottom: 40px;
+  width: 100%;
 }
 
 /* projects */
@@ -227,7 +229,7 @@ ol {
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
-  margin-bottom: 4px;
+  margin-bottom: 15px;
 }
 .college {
   color: #6d9bf5;
@@ -245,50 +247,54 @@ ol {
   margin-top: 0;
   margin-bottom: 4px;
 }
-@media  screen and (max-width: 960px){
-   body{
+.my-photo {
+  border-radius: 15px;
+}
+@media screen and (max-width: 960px) {
+  body {
     padding: 20px 20px 20px 20px;
-   }
-   .content{
+  }
+  .content {
     padding: 40px;
-   }
+  }
 }
-@media  screen and (max-width: 800px){
-   .sidebar{
+@media screen and (max-width: 800px) {
+  .sidebar {
     width: 250px;
-   }
-   .my-photo{
+  }
+  .my-photo {
     width: 250px;
-   }
-   .sidebar-content{
-   padding: 20px;
-   }
+  }
+  .sidebar-content {
+    padding: 20px;
+  }
 }
-@media  screen and (max-width: 630px){
-  body{
+@media screen and (max-width: 630px) {
+  body {
     padding: 0;
   }
-  .sidebar{
+  .sidebar {
     width: 200px;
-   }
-   .my-photo{
+  }
+  .my-photo {
     width: 200px;
-   }
-   .content{
+  }
+  .content {
     padding: 20px;
-   }
-   .my-name{
+  }
+  .my-name {
     font-size: 28px;
-   }
+  }
 }
-@media  screen and (max-width: 510px){
-  .wrapper{
+@media screen and (max-width: 510px) {
+  .wrapper {
     flex-direction: column;
   }
-  .sidebar{
+  .sidebar {
     width: 100%;
+    padding-top: 0;
   }
-  .my-photo{
+  .my-photo {
     width: 100%;
   }
 }
