@@ -294,8 +294,10 @@ ol {
   .sidebar {
     width: 100%;
     padding-top: 0;
+    border-radius: 25px;
   }
   .my-photo {
     width: 100%;
+    border-radius: 25px 25px 0 0;
   }
 }
